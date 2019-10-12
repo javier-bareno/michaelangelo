@@ -1,0 +1,9 @@
+; INI file for Ivan's Cluster
+  
+
+ +w400 +H300
+  
+ Input_File_Name= HfN_001_scene.inc
+ 
+ Initial_Frame = 1
+ Final_Frame = 10

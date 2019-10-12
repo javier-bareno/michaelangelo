@@ -1,0 +1,126 @@
+#include "colors.inc"     
+ 
+ background { color White }    
+ 
+ 
+ 
+  /**********************************************
+ ** Camera and lights                              
+ **********************************************/         
+ 
+#declare camdist = 6000;
+                                                   
+camera {   
+        
+        location <0, 0, camdist>
+        look_at <0, 0, 0>
+}    
+
+   
+//light_source { <000, 00, 1.5*camdist> color White}                                                  
+//light_source { <-600, 00, -camdist> color White}
+//light_source { <600, 00, -camdist> color White}
+
+
+ /**********************************************
+ ** Macros for drawing atoms
+ **********************************************/  
+ 
+#declare RTiN = 60;
+#declare RSiN = 40;    
+
+ #macro putAtom_Ti1_Ti(X,Y,Z)
+ sphere{<X,Y,Z>,RTiN 
+ texture{
+   pigment{color Grey} 
+   finish { phong 0.7 }
+  }}  
+#end   
+
+#macro putAtom_N1_N(X,Y,Z)
+ sphere{<X,Y,Z>,RTiN 
+ 
+ texture { 
+   pigment{color Blue} 
+   finish { phong 0.7 }
+  }} 
+#end
+
+#macro putAtom_Ti2_Ti(X,Y,Z)
+ sphere{<X,Y,Z>,RTiN 
+ texture{
+   pigment{color Grey} 
+   finish { phong 0.7 }
+  }}  
+#end   
+
+#macro putAtom_N2_N(X,Y,Z)
+ sphere{<X,Y,Z>,RTiN 
+ texture { 
+   pigment{color Blue} 
+   finish { phong 0.7 }
+  }}
+#end              
+
+#macro putAtom_SiN3_N(X,Y,Z)
+ sphere{<X,Y,Z>,RSiN 
+ texture { 
+   pigment{color Cyan} 
+   finish { phong 0.7 }
+  }}
+#end    
+
+#macro putAtom_SiN3_Si(X,Y,Z)
+ sphere{<X,Y,Z>,RSiN 
+ texture { 
+   pigment{color Orange} 
+   finish { phong 0.7 }
+  }}
+#end
+
+
+union {
+
+        #include "TiSiN_3L_out.txt"
+        
+        // ad rotate and anim code here  
+        
+        translate <-4000, -2000, -600>
+        rotate <0, 0, 0> 
+        
+        
+        #local ang = clock * 45;
+        rotate <-30, 0, 0>  
+        rotate <0, 0, 10>
+        
+}  
+
+/*union {
+        light_source { <2000, 00, camdist> color White}
+        light_source { <-2000, 00, camdist> color White}  
+        #local ang = clock * 180;             
+        rotate <0, 0, ang>
+}  */
+
+light_source {<0,000,6000> color White}
+
+light_source {
+    <0, 0, 6000>
+    color White
+    spotlight
+    radius 5
+    falloff 15
+    tightness 10
+    point_at <2000, -100, 0>
+  }      
+  
+  light_source {
+    <0, 0, 6000>
+    color White
+    spotlight
+    radius 5
+    falloff 15
+    tightness 10
+    point_at <-1000, -300, 0>
+  }
+
