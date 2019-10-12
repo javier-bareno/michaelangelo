@@ -1,0 +1,103 @@
+#include "colors.inc"  
+ #include "finish.inc" 
+ #include "metals.inc" 
+ #include "stones2"   
+ 
+ background { color SummerSky }    
+ 
+ 
+ 
+  /**********************************************
+ ** Camera and lights                              
+ **********************************************/         
+ 
+#declare camdist = 4000;
+                                                   
+camera {   
+        
+        location <0, 0, camdist>
+        look_at <0, 0, 0>
+}    
+
+
+light_source { <1600, 00, camdist> color White}
+light_source { <-1600, 00, camdist> color White}                                                   
+light_source { <-600, 00, -camdist> color White}
+light_source { <600, 00, -camdist> color White}
+
+
+ /**********************************************
+ ** Macros for drawing atoms
+ **********************************************/  
+ 
+#declare RTiN = 60;  
+#declare RSiN = 45;
+
+ #macro putAtom_Ti1_Ti(X,Y,Z)
+ sphere{<X,Y,Z>,RTiN 
+ texture{
+   pigment{color Yellow} 
+   finish { phong 0.7 }
+  }}  
+#end   
+
+#macro putAtom_N1_N(X,Y,Z)
+ sphere{<X,Y,Z>,RTiN 
+ 
+ texture { 
+   pigment{color Blue} 
+   finish { phong 0.7 }
+  }} 
+#end
+
+#macro putAtom_Ti2_Ti(X,Y,Z)
+ sphere{<X,Y,Z>,RTiN 
+ texture { 
+   pigment{color Yellow} 
+   finish { phong 0.7 }
+  }}  
+#end 
+
+#macro putAtom_N2_N(X,Y,Z)
+ sphere{<X,Y,Z>,RTiN 
+ texture { 
+   pigment{color Blue} 
+   finish { phong 0.7 }
+  }}
+#end
+
+#macro putAtom_SiN3_Si(X,Y,Z)
+ sphere{<X,Y,Z>,RSiN  
+ texture {
+   pigment{color rgbf <1, 0.5, 0, 0.5>} 
+   finish { ambient 0.8 phong 0.5 }
+  }} 
+#end   
+
+#macro putAtom_SiN3_N(X,Y,Z)
+ sphere{<X,Y,Z>,RSiN  
+ texture {
+   pigment{color rgbf <0, 0, 1, 0.5>} 
+   finish { ambient 0.8 phong 0.5 }
+  }} 
+#end 
+
+
+union {
+
+        #include "scene_9.txt"
+        
+        // ad rotate and anim code here  
+        
+        translate <-1665, -2415, 0>
+        rotate <0, 0, 270> 
+        
+      /*  #if (clock <= 0.5)
+          #local ang = clock * 360;
+        #else
+          #local ang = 180 - (clock-0.5) * 360;   
+        #end
+        
+        rotate <-90, 0, 0>
+        rotate <ang, 0, 0> */
+}

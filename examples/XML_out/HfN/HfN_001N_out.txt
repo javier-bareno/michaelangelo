@@ -1,0 +1,883 @@
+
+        /*******************************
+         *  Macro calls to draw atoms  *
+         *******************************/        
+         
+               putAtom_Ti1_Ti(0, 0, 0)            
+         
+               putAtom_Ti1_Ti(121, 121, 0)            
+         
+               putAtom_Ti1_Ti(121, 0, 121)            
+         
+               putAtom_Ti1_Ti(0, 121, 121)            
+         
+               putAtom_N1_N(121, 0, 0)            
+         
+               putAtom_N1_N(0, 121, 0)            
+         
+               putAtom_N1_N(0, 0, 121)            
+         
+               putAtom_N1_N(121, 121, 121)            
+         
+               putAtom_Ti1_Ti(0, 0, 242)            
+         
+               putAtom_Ti1_Ti(121, 121, 242)            
+         
+               putAtom_Ti1_Ti(121, 0, 363)            
+         
+               putAtom_Ti1_Ti(0, 121, 363)            
+         
+               putAtom_N1_N(121, 0, 242)            
+         
+               putAtom_N1_N(0, 121, 242)            
+         
+               putAtom_N1_N(0, 0, 363)            
+         
+               putAtom_N1_N(121, 121, 363)            
+         
+               putAtom_Ti1_Ti(0, 0, 484)            
+         
+               putAtom_Ti1_Ti(121, 121, 484)            
+         
+               putAtom_N1_N(121, 0, 484)            
+         
+               putAtom_N1_N(0, 121, 484)            
+         
+               putAtom_Ti1_Ti(0, 242, 0)            
+         
+               putAtom_Ti1_Ti(121, 363, 0)            
+         
+               putAtom_Ti1_Ti(121, 242, 121)            
+         
+               putAtom_Ti1_Ti(0, 363, 121)            
+         
+               putAtom_N1_N(121, 242, 0)            
+         
+               putAtom_N1_N(0, 363, 0)            
+         
+               putAtom_N1_N(0, 242, 121)            
+         
+               putAtom_N1_N(121, 363, 121)            
+         
+               putAtom_Ti1_Ti(0, 242, 242)            
+         
+               putAtom_Ti1_Ti(121, 363, 242)            
+         
+               putAtom_Ti1_Ti(121, 242, 363)            
+         
+               putAtom_Ti1_Ti(0, 363, 363)            
+         
+               putAtom_N1_N(121, 242, 242)            
+         
+               putAtom_N1_N(0, 363, 242)            
+         
+               putAtom_N1_N(0, 242, 363)            
+         
+               putAtom_N1_N(121, 363, 363)            
+         
+               putAtom_Ti1_Ti(0, 242, 484)            
+         
+               putAtom_Ti1_Ti(121, 363, 484)            
+         
+               putAtom_N1_N(121, 242, 484)            
+         
+               putAtom_N1_N(0, 363, 484)            
+         
+               putAtom_Ti1_Ti(0, 484, 0)            
+         
+               putAtom_Ti1_Ti(121, 605, 0)            
+         
+               putAtom_Ti1_Ti(121, 484, 121)            
+         
+               putAtom_Ti1_Ti(0, 605, 121)            
+         
+               putAtom_N1_N(121, 484, 0)            
+         
+               putAtom_N1_N(0, 605, 0)            
+         
+               putAtom_N1_N(0, 484, 121)            
+         
+               putAtom_N1_N(121, 605, 121)            
+         
+               putAtom_Ti1_Ti(0, 484, 242)            
+         
+               putAtom_Ti1_Ti(121, 605, 242)            
+         
+               putAtom_Ti1_Ti(121, 484, 363)            
+         
+               putAtom_Ti1_Ti(0, 605, 363)            
+         
+               putAtom_N1_N(121, 484, 242)            
+         
+               putAtom_N1_N(0, 605, 242)            
+         
+               putAtom_N1_N(0, 484, 363)            
+         
+               putAtom_N1_N(121, 605, 363)            
+         
+               putAtom_Ti1_Ti(0, 484, 484)            
+         
+               putAtom_Ti1_Ti(121, 605, 484)            
+         
+               putAtom_N1_N(121, 484, 484)            
+         
+               putAtom_N1_N(0, 605, 484)            
+         
+               putAtom_Ti1_Ti(0, 726, 0)            
+         
+               putAtom_Ti1_Ti(121, 847, 0)            
+         
+               putAtom_Ti1_Ti(121, 726, 121)            
+         
+               putAtom_Ti1_Ti(0, 847, 121)            
+         
+               putAtom_N1_N(121, 726, 0)            
+         
+               putAtom_N1_N(0, 847, 0)            
+         
+               putAtom_N1_N(0, 726, 121)            
+         
+               putAtom_N1_N(121, 847, 121)            
+         
+               putAtom_Ti1_Ti(0, 726, 242)            
+         
+               putAtom_Ti1_Ti(121, 847, 242)            
+         
+               putAtom_Ti1_Ti(121, 726, 363)            
+         
+               putAtom_Ti1_Ti(0, 847, 363)            
+         
+               putAtom_N1_N(121, 726, 242)            
+         
+               putAtom_N1_N(0, 847, 242)            
+         
+               putAtom_N1_N(0, 726, 363)            
+         
+               putAtom_N1_N(121, 847, 363)            
+         
+               putAtom_Ti1_Ti(0, 726, 484)            
+         
+               putAtom_Ti1_Ti(121, 847, 484)            
+         
+               putAtom_N1_N(121, 726, 484)            
+         
+               putAtom_N1_N(0, 847, 484)            
+         
+               putAtom_Ti1_Ti(0, 968, 0)            
+         
+               putAtom_Ti1_Ti(121, 968, 121)            
+         
+               putAtom_N1_N(121, 968, 0)            
+         
+               putAtom_N1_N(0, 968, 121)            
+         
+               putAtom_Ti1_Ti(0, 968, 242)            
+         
+               putAtom_Ti1_Ti(121, 968, 363)            
+         
+               putAtom_N1_N(121, 968, 242)            
+         
+               putAtom_N1_N(0, 968, 363)            
+         
+               putAtom_Ti1_Ti(0, 968, 484)            
+         
+               putAtom_N1_N(121, 968, 484)            
+         
+               putAtom_Ti1_Ti(242, 0, 0)            
+         
+               putAtom_Ti1_Ti(363, 121, 0)            
+         
+               putAtom_Ti1_Ti(363, 0, 121)            
+         
+               putAtom_Ti1_Ti(242, 121, 121)            
+         
+               putAtom_N1_N(363, 0, 0)            
+         
+               putAtom_N1_N(242, 121, 0)            
+         
+               putAtom_N1_N(242, 0, 121)            
+         
+               putAtom_N1_N(363, 121, 121)            
+         
+               putAtom_Ti1_Ti(242, 0, 242)            
+         
+               putAtom_Ti1_Ti(363, 121, 242)            
+         
+               putAtom_Ti1_Ti(363, 0, 363)            
+         
+               putAtom_Ti1_Ti(242, 121, 363)            
+         
+               putAtom_N1_N(363, 0, 242)            
+         
+               putAtom_N1_N(242, 121, 242)            
+         
+               putAtom_N1_N(242, 0, 363)            
+         
+               putAtom_N1_N(363, 121, 363)            
+         
+               putAtom_Ti1_Ti(242, 0, 484)            
+         
+               putAtom_Ti1_Ti(363, 121, 484)            
+         
+               putAtom_N1_N(363, 0, 484)            
+         
+               putAtom_N1_N(242, 121, 484)            
+         
+               putAtom_Ti1_Ti(242, 242, 0)            
+         
+               putAtom_Ti1_Ti(363, 363, 0)            
+         
+               putAtom_Ti1_Ti(363, 242, 121)            
+         
+               putAtom_Ti1_Ti(242, 363, 121)            
+         
+               putAtom_N1_N(363, 242, 0)            
+         
+               putAtom_N1_N(242, 363, 0)            
+         
+               putAtom_N1_N(242, 242, 121)            
+         
+               putAtom_N1_N(363, 363, 121)            
+         
+               putAtom_Ti1_Ti(242, 242, 242)            
+         
+               putAtom_Ti1_Ti(363, 363, 242)            
+         
+               putAtom_Ti1_Ti(363, 242, 363)            
+         
+               putAtom_Ti1_Ti(242, 363, 363)            
+         
+               putAtom_N1_N(363, 242, 242)            
+         
+               putAtom_N1_N(242, 363, 242)            
+         
+               putAtom_N1_N(242, 242, 363)            
+         
+               putAtom_N1_N(363, 363, 363)            
+         
+               putAtom_Ti1_Ti(242, 242, 484)            
+         
+               putAtom_Ti1_Ti(363, 363, 484)            
+         
+               putAtom_N1_N(363, 242, 484)            
+         
+               putAtom_N1_N(242, 363, 484)            
+         
+               putAtom_Ti1_Ti(242, 484, 0)            
+         
+               putAtom_Ti1_Ti(363, 605, 0)            
+         
+               putAtom_Ti1_Ti(363, 484, 121)            
+         
+               putAtom_Ti1_Ti(242, 605, 121)            
+         
+               putAtom_N1_N(363, 484, 0)            
+         
+               putAtom_N1_N(242, 605, 0)            
+         
+               putAtom_N1_N(242, 484, 121)            
+         
+               putAtom_N1_N(363, 605, 121)            
+         
+               putAtom_Ti1_Ti(242, 484, 242)            
+         
+               putAtom_Ti1_Ti(363, 605, 242)            
+         
+               putAtom_Ti1_Ti(363, 484, 363)            
+         
+               putAtom_Ti1_Ti(242, 605, 363)            
+         
+               putAtom_N1_N(363, 484, 242)            
+         
+               putAtom_N1_N(242, 605, 242)            
+         
+               putAtom_N1_N(242, 484, 363)            
+         
+               putAtom_N1_N(363, 605, 363)            
+         
+               putAtom_Ti1_Ti(242, 484, 484)            
+         
+               putAtom_Ti1_Ti(363, 605, 484)            
+         
+               putAtom_N1_N(363, 484, 484)            
+         
+               putAtom_N1_N(242, 605, 484)            
+         
+               putAtom_Ti1_Ti(242, 726, 0)            
+         
+               putAtom_Ti1_Ti(363, 847, 0)            
+         
+               putAtom_Ti1_Ti(363, 726, 121)            
+         
+               putAtom_Ti1_Ti(242, 847, 121)            
+         
+               putAtom_N1_N(363, 726, 0)            
+         
+               putAtom_N1_N(242, 847, 0)            
+         
+               putAtom_N1_N(242, 726, 121)            
+         
+               putAtom_N1_N(363, 847, 121)            
+         
+               putAtom_Ti1_Ti(242, 726, 242)            
+         
+               putAtom_Ti1_Ti(363, 847, 242)            
+         
+               putAtom_Ti1_Ti(363, 726, 363)            
+         
+               putAtom_Ti1_Ti(242, 847, 363)            
+         
+               putAtom_N1_N(363, 726, 242)            
+         
+               putAtom_N1_N(242, 847, 242)            
+         
+               putAtom_N1_N(242, 726, 363)            
+         
+               putAtom_N1_N(363, 847, 363)            
+         
+               putAtom_Ti1_Ti(242, 726, 484)            
+         
+               putAtom_Ti1_Ti(363, 847, 484)            
+         
+               putAtom_N1_N(363, 726, 484)            
+         
+               putAtom_N1_N(242, 847, 484)            
+         
+               putAtom_Ti1_Ti(242, 968, 0)            
+         
+               putAtom_Ti1_Ti(363, 968, 121)            
+         
+               putAtom_N1_N(363, 968, 0)            
+         
+               putAtom_N1_N(242, 968, 121)            
+         
+               putAtom_Ti1_Ti(242, 968, 242)            
+         
+               putAtom_Ti1_Ti(363, 968, 363)            
+         
+               putAtom_N1_N(363, 968, 242)            
+         
+               putAtom_N1_N(242, 968, 363)            
+         
+               putAtom_Ti1_Ti(242, 968, 484)            
+         
+               putAtom_N1_N(363, 968, 484)            
+         
+               putAtom_Ti1_Ti(484, 0, 0)            
+         
+               putAtom_Ti1_Ti(605, 121, 0)            
+         
+               putAtom_Ti1_Ti(605, 0, 121)            
+         
+               putAtom_Ti1_Ti(484, 121, 121)            
+         
+               putAtom_N1_N(605, 0, 0)            
+         
+               putAtom_N1_N(484, 121, 0)            
+         
+               putAtom_N1_N(484, 0, 121)            
+         
+               putAtom_N1_N(605, 121, 121)            
+         
+               putAtom_Ti1_Ti(484, 0, 242)            
+         
+               putAtom_Ti1_Ti(605, 121, 242)            
+         
+               putAtom_Ti1_Ti(605, 0, 363)            
+         
+               putAtom_Ti1_Ti(484, 121, 363)            
+         
+               putAtom_N1_N(605, 0, 242)            
+         
+               putAtom_N1_N(484, 121, 242)            
+         
+               putAtom_N1_N(484, 0, 363)            
+         
+               putAtom_N1_N(605, 121, 363)            
+         
+               putAtom_Ti1_Ti(484, 0, 484)            
+         
+               putAtom_Ti1_Ti(605, 121, 484)            
+         
+               putAtom_N1_N(605, 0, 484)            
+         
+               putAtom_N1_N(484, 121, 484)            
+         
+               putAtom_Ti1_Ti(484, 242, 0)            
+         
+               putAtom_Ti1_Ti(605, 363, 0)            
+         
+               putAtom_Ti1_Ti(605, 242, 121)            
+         
+               putAtom_Ti1_Ti(484, 363, 121)            
+         
+               putAtom_N1_N(605, 242, 0)            
+         
+               putAtom_N1_N(484, 363, 0)            
+         
+               putAtom_N1_N(484, 242, 121)            
+         
+               putAtom_N1_N(605, 363, 121)            
+         
+               putAtom_Ti1_Ti(484, 242, 242)            
+         
+               putAtom_Ti1_Ti(605, 363, 242)            
+         
+               putAtom_Ti1_Ti(605, 242, 363)            
+         
+               putAtom_Ti1_Ti(484, 363, 363)            
+         
+               putAtom_N1_N(605, 242, 242)            
+         
+               putAtom_N1_N(484, 363, 242)            
+         
+               putAtom_N1_N(484, 242, 363)            
+         
+               putAtom_N1_N(605, 363, 363)            
+         
+               putAtom_Ti1_Ti(484, 242, 484)            
+         
+               putAtom_Ti1_Ti(605, 363, 484)            
+         
+               putAtom_N1_N(605, 242, 484)            
+         
+               putAtom_N1_N(484, 363, 484)            
+         
+               putAtom_Ti1_Ti(484, 484, 0)            
+         
+               putAtom_Ti1_Ti(605, 605, 0)            
+         
+               putAtom_Ti1_Ti(605, 484, 121)            
+         
+               putAtom_Ti1_Ti(484, 605, 121)            
+         
+               putAtom_N1_N(605, 484, 0)            
+         
+               putAtom_N1_N(484, 605, 0)            
+         
+               putAtom_N1_N(484, 484, 121)            
+         
+               putAtom_N1_N(605, 605, 121)            
+         
+               putAtom_Ti1_Ti(484, 484, 242)            
+         
+               putAtom_Ti1_Ti(605, 605, 242)            
+         
+               putAtom_Ti1_Ti(605, 484, 363)            
+         
+               putAtom_Ti1_Ti(484, 605, 363)            
+         
+               putAtom_N1_N(605, 484, 242)            
+         
+               putAtom_N1_N(484, 605, 242)            
+         
+               putAtom_N1_N(484, 484, 363)            
+         
+               putAtom_N1_N(605, 605, 363)            
+         
+               putAtom_Ti1_Ti(484, 484, 484)            
+         
+               putAtom_Ti1_Ti(605, 605, 484)            
+         
+               putAtom_N1_N(605, 484, 484)            
+         
+               putAtom_N1_N(484, 605, 484)            
+         
+               putAtom_Ti1_Ti(484, 726, 0)            
+         
+               putAtom_Ti1_Ti(605, 847, 0)            
+         
+               putAtom_Ti1_Ti(605, 726, 121)            
+         
+               putAtom_Ti1_Ti(484, 847, 121)            
+         
+               putAtom_N1_N(605, 726, 0)            
+         
+               putAtom_N1_N(484, 847, 0)            
+         
+               putAtom_N1_N(484, 726, 121)            
+         
+               putAtom_N1_N(605, 847, 121)            
+         
+               putAtom_Ti1_Ti(484, 726, 242)            
+         
+               putAtom_Ti1_Ti(605, 847, 242)            
+         
+               putAtom_Ti1_Ti(605, 726, 363)            
+         
+               putAtom_Ti1_Ti(484, 847, 363)            
+         
+               putAtom_N1_N(605, 726, 242)            
+         
+               putAtom_N1_N(484, 847, 242)            
+         
+               putAtom_N1_N(484, 726, 363)            
+         
+               putAtom_N1_N(605, 847, 363)            
+         
+               putAtom_Ti1_Ti(484, 726, 484)            
+         
+               putAtom_Ti1_Ti(605, 847, 484)            
+         
+               putAtom_N1_N(605, 726, 484)            
+         
+               putAtom_N1_N(484, 847, 484)            
+         
+               putAtom_Ti1_Ti(484, 968, 0)            
+         
+               putAtom_Ti1_Ti(605, 968, 121)            
+         
+               putAtom_N1_N(605, 968, 0)            
+         
+               putAtom_N1_N(484, 968, 121)            
+         
+               putAtom_Ti1_Ti(484, 968, 242)            
+         
+               putAtom_Ti1_Ti(605, 968, 363)            
+         
+               putAtom_N1_N(605, 968, 242)            
+         
+               putAtom_N1_N(484, 968, 363)            
+         
+               putAtom_Ti1_Ti(484, 968, 484)            
+         
+               putAtom_N1_N(605, 968, 484)            
+         
+               putAtom_Ti1_Ti(726, 0, 0)            
+         
+               putAtom_Ti1_Ti(847, 121, 0)            
+         
+               putAtom_Ti1_Ti(847, 0, 121)            
+         
+               putAtom_Ti1_Ti(726, 121, 121)            
+         
+               putAtom_N1_N(847, 0, 0)            
+         
+               putAtom_N1_N(726, 121, 0)            
+         
+               putAtom_N1_N(726, 0, 121)            
+         
+               putAtom_N1_N(847, 121, 121)            
+         
+               putAtom_Ti1_Ti(726, 0, 242)            
+         
+               putAtom_Ti1_Ti(847, 121, 242)            
+         
+               putAtom_Ti1_Ti(847, 0, 363)            
+         
+               putAtom_Ti1_Ti(726, 121, 363)            
+         
+               putAtom_N1_N(847, 0, 242)            
+         
+               putAtom_N1_N(726, 121, 242)            
+         
+               putAtom_N1_N(726, 0, 363)            
+         
+               putAtom_N1_N(847, 121, 363)            
+         
+               putAtom_Ti1_Ti(726, 0, 484)            
+         
+               putAtom_Ti1_Ti(847, 121, 484)            
+         
+               putAtom_N1_N(847, 0, 484)            
+         
+               putAtom_N1_N(726, 121, 484)            
+         
+               putAtom_Ti1_Ti(726, 242, 0)            
+         
+               putAtom_Ti1_Ti(847, 363, 0)            
+         
+               putAtom_Ti1_Ti(847, 242, 121)            
+         
+               putAtom_Ti1_Ti(726, 363, 121)            
+         
+               putAtom_N1_N(847, 242, 0)            
+         
+               putAtom_N1_N(726, 363, 0)            
+         
+               putAtom_N1_N(726, 242, 121)            
+         
+               putAtom_N1_N(847, 363, 121)            
+         
+               putAtom_Ti1_Ti(726, 242, 242)            
+         
+               putAtom_Ti1_Ti(847, 363, 242)            
+         
+               putAtom_Ti1_Ti(847, 242, 363)            
+         
+               putAtom_Ti1_Ti(726, 363, 363)            
+         
+               putAtom_N1_N(847, 242, 242)            
+         
+               putAtom_N1_N(726, 363, 242)            
+         
+               putAtom_N1_N(726, 242, 363)            
+         
+               putAtom_N1_N(847, 363, 363)            
+         
+               putAtom_Ti1_Ti(726, 242, 484)            
+         
+               putAtom_Ti1_Ti(847, 363, 484)            
+         
+               putAtom_N1_N(847, 242, 484)            
+         
+               putAtom_N1_N(726, 363, 484)            
+         
+               putAtom_Ti1_Ti(726, 484, 0)            
+         
+               putAtom_Ti1_Ti(847, 605, 0)            
+         
+               putAtom_Ti1_Ti(847, 484, 121)            
+         
+               putAtom_Ti1_Ti(726, 605, 121)            
+         
+               putAtom_N1_N(847, 484, 0)            
+         
+               putAtom_N1_N(726, 605, 0)            
+         
+               putAtom_N1_N(726, 484, 121)            
+         
+               putAtom_N1_N(847, 605, 121)            
+         
+               putAtom_Ti1_Ti(726, 484, 242)            
+         
+               putAtom_Ti1_Ti(847, 605, 242)            
+         
+               putAtom_Ti1_Ti(847, 484, 363)            
+         
+               putAtom_Ti1_Ti(726, 605, 363)            
+         
+               putAtom_N1_N(847, 484, 242)            
+         
+               putAtom_N1_N(726, 605, 242)            
+         
+               putAtom_N1_N(726, 484, 363)            
+         
+               putAtom_N1_N(847, 605, 363)            
+         
+               putAtom_Ti1_Ti(726, 484, 484)            
+         
+               putAtom_Ti1_Ti(847, 605, 484)            
+         
+               putAtom_N1_N(847, 484, 484)            
+         
+               putAtom_N1_N(726, 605, 484)            
+         
+               putAtom_Ti1_Ti(726, 726, 0)            
+         
+               putAtom_Ti1_Ti(847, 847, 0)            
+         
+               putAtom_Ti1_Ti(847, 726, 121)            
+         
+               putAtom_Ti1_Ti(726, 847, 121)            
+         
+               putAtom_N1_N(847, 726, 0)            
+         
+               putAtom_N1_N(726, 847, 0)            
+         
+               putAtom_N1_N(726, 726, 121)            
+         
+               putAtom_N1_N(847, 847, 121)            
+         
+               putAtom_Ti1_Ti(726, 726, 242)            
+         
+               putAtom_Ti1_Ti(847, 847, 242)            
+         
+               putAtom_Ti1_Ti(847, 726, 363)            
+         
+               putAtom_Ti1_Ti(726, 847, 363)            
+         
+               putAtom_N1_N(847, 726, 242)            
+         
+               putAtom_N1_N(726, 847, 242)            
+         
+               putAtom_N1_N(726, 726, 363)            
+         
+               putAtom_N1_N(847, 847, 363)            
+         
+               putAtom_Ti1_Ti(726, 726, 484)            
+         
+               putAtom_Ti1_Ti(847, 847, 484)            
+         
+               putAtom_N1_N(847, 726, 484)            
+         
+               putAtom_N1_N(726, 847, 484)            
+         
+               putAtom_Ti1_Ti(726, 968, 0)            
+         
+               putAtom_Ti1_Ti(847, 968, 121)            
+         
+               putAtom_N1_N(847, 968, 0)            
+         
+               putAtom_N1_N(726, 968, 121)            
+         
+               putAtom_Ti1_Ti(726, 968, 242)            
+         
+               putAtom_Ti1_Ti(847, 968, 363)            
+         
+               putAtom_N1_N(847, 968, 242)            
+         
+               putAtom_N1_N(726, 968, 363)            
+         
+               putAtom_Ti1_Ti(726, 968, 484)            
+         
+               putAtom_N1_N(847, 968, 484)            
+         
+               putAtom_Ti1_Ti(968, 0, 0)            
+         
+               putAtom_Ti1_Ti(968, 121, 121)            
+         
+               putAtom_N1_N(968, 121, 0)            
+         
+               putAtom_N1_N(968, 0, 121)            
+         
+               putAtom_Ti1_Ti(968, 0, 242)            
+         
+               putAtom_Ti1_Ti(968, 121, 363)            
+         
+               putAtom_N1_N(968, 121, 242)            
+         
+               putAtom_N1_N(968, 0, 363)            
+         
+               putAtom_Ti1_Ti(968, 0, 484)            
+         
+               putAtom_N1_N(968, 121, 484)            
+         
+               putAtom_Ti1_Ti(968, 242, 0)            
+         
+               putAtom_Ti1_Ti(968, 363, 121)            
+         
+               putAtom_N1_N(968, 363, 0)            
+         
+               putAtom_N1_N(968, 242, 121)            
+         
+               putAtom_Ti1_Ti(968, 242, 242)            
+         
+               putAtom_Ti1_Ti(968, 363, 363)            
+         
+               putAtom_N1_N(968, 363, 242)            
+         
+               putAtom_N1_N(968, 242, 363)            
+         
+               putAtom_Ti1_Ti(968, 242, 484)            
+         
+               putAtom_N1_N(968, 363, 484)            
+         
+               putAtom_Ti1_Ti(968, 484, 0)            
+         
+               putAtom_Ti1_Ti(968, 605, 121)            
+         
+               putAtom_N1_N(968, 605, 0)            
+         
+               putAtom_N1_N(968, 484, 121)            
+         
+               putAtom_Ti1_Ti(968, 484, 242)            
+         
+               putAtom_Ti1_Ti(968, 605, 363)            
+         
+               putAtom_N1_N(968, 605, 242)            
+         
+               putAtom_N1_N(968, 484, 363)            
+         
+               putAtom_Ti1_Ti(968, 484, 484)            
+         
+               putAtom_N1_N(968, 605, 484)            
+         
+               putAtom_Ti1_Ti(968, 726, 0)            
+         
+               putAtom_Ti1_Ti(968, 847, 121)            
+         
+               putAtom_N1_N(968, 847, 0)            
+         
+               putAtom_N1_N(968, 726, 121)            
+         
+               putAtom_Ti1_Ti(968, 726, 242)            
+         
+               putAtom_Ti1_Ti(968, 847, 363)            
+         
+               putAtom_N1_N(968, 847, 242)            
+         
+               putAtom_N1_N(968, 726, 363)            
+         
+               putAtom_Ti1_Ti(968, 726, 484)            
+         
+               putAtom_N1_N(968, 847, 484)            
+         
+               putAtom_Ti1_Ti(968, 968, 0)            
+         
+               putAtom_N1_N(968, 968, 121)            
+         
+               putAtom_Ti1_Ti(968, 968, 242)            
+         
+               putAtom_N1_N(968, 968, 363)            
+         
+               putAtom_Ti1_Ti(968, 968, 484)            
+         
+               putAtom_N1_N(0, 0, 605)            
+         
+               putAtom_N1_N(121, 121, 605)            
+         
+               putAtom_N1_N(0, 242, 605)            
+         
+               putAtom_N1_N(121, 363, 605)            
+         
+               putAtom_N1_N(0, 484, 605)            
+         
+               putAtom_N1_N(121, 605, 605)            
+         
+               putAtom_N1_N(0, 726, 605)            
+         
+               putAtom_N1_N(121, 847, 605)            
+         
+               putAtom_N1_N(0, 968, 605)            
+         
+               putAtom_N1_N(242, 0, 605)            
+         
+               putAtom_N1_N(363, 121, 605)            
+         
+               putAtom_N1_N(242, 242, 605)            
+         
+               putAtom_N1_N(363, 363, 605)            
+         
+               putAtom_N1_N(242, 484, 605)            
+         
+               putAtom_N1_N(363, 605, 605)            
+         
+               putAtom_N1_N(242, 726, 605)            
+         
+               putAtom_N1_N(363, 847, 605)            
+         
+               putAtom_N1_N(242, 968, 605)            
+         
+               putAtom_N1_N(605, 121, 605)            
+         
+               putAtom_N1_N(484, 242, 605)            
+         
+               putAtom_N1_N(605, 363, 605)            
+         
+               putAtom_N1_N(605, 605, 605)            
+         
+               putAtom_N1_N(605, 847, 605)            
+         
+               putAtom_N1_N(484, 968, 605)            
+         
+               putAtom_N1_N(726, 0, 605)            
+         
+               putAtom_N1_N(726, 242, 605)            
+         
+               putAtom_N1_N(847, 363, 605)            
+         
+               putAtom_N1_N(726, 484, 605)            
+         
+               putAtom_N1_N(847, 605, 605)            
+         
+               putAtom_N1_N(726, 968, 605)            
+         
+               putAtom_N1_N(968, 242, 605)            
+         
+               putAtom_N1_N(968, 484, 605)            
+         
+               putAtom_N1_N(968, 726, 605)            
+         
+               putAtom_N1_N(968, 968, 605)            
+         

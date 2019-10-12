@@ -1,0 +1,679 @@
+
+        /*******************************
+         *  Macro calls to draw atoms  *
+         *******************************/        
+         
+               putAtom_N1_N(49, 86, 70)            
+         
+               putAtom_Hf1_Hf(0, 0, 0)            
+         
+               putAtom_N1_N(0, 0, 210)            
+         
+               putAtom_N1_N(49, 258, 70)            
+         
+               putAtom_Hf1_Hf(0, 172, 0)            
+         
+               putAtom_N1_N(0, 172, 210)            
+         
+               putAtom_N1_N(49, 430, 70)            
+         
+               putAtom_Hf1_Hf(0, 344, 0)            
+         
+               putAtom_N1_N(0, 344, 210)            
+         
+               putAtom_N1_N(49, 602, 70)            
+         
+               putAtom_Hf1_Hf(0, 516, 0)            
+         
+               putAtom_N1_N(0, 516, 210)            
+         
+               putAtom_N1_N(49, 774, 70)            
+         
+               putAtom_Hf1_Hf(0, 688, 0)            
+         
+               putAtom_N1_N(0, 688, 210)            
+         
+               putAtom_N1_N(49, 946, 70)            
+         
+               putAtom_Hf1_Hf(0, 860, 0)            
+         
+               putAtom_N1_N(0, 860, 210)            
+         
+               putAtom_N1_N(196, 0, 70)            
+         
+               putAtom_N1_N(196, 172, 70)            
+         
+               putAtom_Hf1_Hf(147, 86, 0)            
+         
+               putAtom_N1_N(147, 86, 210)            
+         
+               putAtom_Hf1_Hf(98, 0, 140)            
+         
+               putAtom_N1_N(98, 0, 350)            
+         
+               putAtom_N1_N(196, 344, 70)            
+         
+               putAtom_Hf1_Hf(147, 258, 0)            
+         
+               putAtom_N1_N(147, 258, 210)            
+         
+               putAtom_Hf1_Hf(98, 172, 140)            
+         
+               putAtom_N1_N(98, 172, 350)            
+         
+               putAtom_Hf1_Hf(49, 86, 280)            
+         
+               putAtom_N1_N(49, 86, 490)            
+         
+               putAtom_Hf1_Hf(0, 0, 420)            
+         
+               putAtom_N1_N(196, 516, 70)            
+         
+               putAtom_Hf1_Hf(147, 430, 0)            
+         
+               putAtom_N1_N(147, 430, 210)            
+         
+               putAtom_Hf1_Hf(98, 344, 140)            
+         
+               putAtom_N1_N(98, 344, 350)            
+         
+               putAtom_Hf1_Hf(49, 258, 280)            
+         
+               putAtom_N1_N(49, 258, 490)            
+         
+               putAtom_Hf1_Hf(0, 172, 420)            
+         
+               putAtom_N1_N(196, 688, 70)            
+         
+               putAtom_Hf1_Hf(147, 602, 0)            
+         
+               putAtom_N1_N(147, 602, 210)            
+         
+               putAtom_Hf1_Hf(98, 516, 140)            
+         
+               putAtom_N1_N(98, 516, 350)            
+         
+               putAtom_Hf1_Hf(49, 430, 280)            
+         
+               putAtom_N1_N(49, 430, 490)            
+         
+               putAtom_Hf1_Hf(0, 344, 420)            
+         
+               putAtom_N1_N(196, 860, 70)            
+         
+               putAtom_Hf1_Hf(147, 774, 0)            
+         
+               putAtom_N1_N(147, 774, 210)            
+         
+               putAtom_Hf1_Hf(98, 688, 140)            
+         
+               putAtom_N1_N(98, 688, 350)            
+         
+               putAtom_Hf1_Hf(49, 602, 280)            
+         
+               putAtom_N1_N(49, 602, 490)            
+         
+               putAtom_Hf1_Hf(0, 516, 420)            
+         
+               putAtom_Hf1_Hf(147, 946, 0)            
+         
+               putAtom_N1_N(147, 946, 210)            
+         
+               putAtom_Hf1_Hf(98, 860, 140)            
+         
+               putAtom_N1_N(98, 860, 350)            
+         
+               putAtom_Hf1_Hf(49, 774, 280)            
+         
+               putAtom_N1_N(49, 774, 490)            
+         
+               putAtom_Hf1_Hf(0, 688, 420)            
+         
+               putAtom_Hf1_Hf(49, 946, 280)            
+         
+               putAtom_N1_N(49, 946, 490)            
+         
+               putAtom_Hf1_Hf(0, 860, 420)            
+         
+               putAtom_N1_N(343, 86, 70)            
+         
+               putAtom_Hf1_Hf(294, 0, 0)            
+         
+               putAtom_N1_N(294, 0, 210)            
+         
+               putAtom_N1_N(343, 258, 70)            
+         
+               putAtom_Hf1_Hf(294, 172, 0)            
+         
+               putAtom_N1_N(294, 172, 210)            
+         
+               putAtom_Hf1_Hf(245, 86, 140)            
+         
+               putAtom_N1_N(245, 86, 350)            
+         
+               putAtom_Hf1_Hf(196, 0, 280)            
+         
+               putAtom_N1_N(196, 0, 490)            
+         
+               putAtom_N1_N(343, 430, 70)            
+         
+               putAtom_Hf1_Hf(294, 344, 0)            
+         
+               putAtom_N1_N(294, 344, 210)            
+         
+               putAtom_Hf1_Hf(245, 258, 140)            
+         
+               putAtom_N1_N(245, 258, 350)            
+         
+               putAtom_Hf1_Hf(196, 172, 280)            
+         
+               putAtom_N1_N(196, 172, 490)            
+         
+               putAtom_Hf1_Hf(147, 86, 420)            
+         
+               putAtom_N1_N(343, 602, 70)            
+         
+               putAtom_Hf1_Hf(294, 516, 0)            
+         
+               putAtom_N1_N(294, 516, 210)            
+         
+               putAtom_Hf1_Hf(245, 430, 140)            
+         
+               putAtom_N1_N(245, 430, 350)            
+         
+               putAtom_Hf1_Hf(196, 344, 280)            
+         
+               putAtom_N1_N(196, 344, 490)            
+         
+               putAtom_Hf1_Hf(147, 258, 420)            
+         
+               putAtom_N1_N(343, 774, 70)            
+         
+               putAtom_Hf1_Hf(294, 688, 0)            
+         
+               putAtom_N1_N(294, 688, 210)            
+         
+               putAtom_Hf1_Hf(245, 602, 140)            
+         
+               putAtom_N1_N(245, 602, 350)            
+         
+               putAtom_Hf1_Hf(196, 516, 280)            
+         
+               putAtom_N1_N(196, 516, 490)            
+         
+               putAtom_Hf1_Hf(147, 430, 420)            
+         
+               putAtom_N1_N(343, 946, 70)            
+         
+               putAtom_Hf1_Hf(294, 860, 0)            
+         
+               putAtom_N1_N(294, 860, 210)            
+         
+               putAtom_Hf1_Hf(245, 774, 140)            
+         
+               putAtom_N1_N(245, 774, 350)            
+         
+               putAtom_Hf1_Hf(196, 688, 280)            
+         
+               putAtom_N1_N(196, 688, 490)            
+         
+               putAtom_Hf1_Hf(147, 602, 420)            
+         
+               putAtom_Hf1_Hf(245, 946, 140)            
+         
+               putAtom_N1_N(245, 946, 350)            
+         
+               putAtom_Hf1_Hf(196, 860, 280)            
+         
+               putAtom_N1_N(196, 860, 490)            
+         
+               putAtom_Hf1_Hf(147, 774, 420)            
+         
+               putAtom_Hf1_Hf(147, 946, 420)            
+         
+               putAtom_N1_N(490, 0, 70)            
+         
+               putAtom_N1_N(490, 172, 70)            
+         
+               putAtom_Hf1_Hf(441, 86, 0)            
+         
+               putAtom_N1_N(441, 86, 210)            
+         
+               putAtom_Hf1_Hf(392, 0, 140)            
+         
+               putAtom_N1_N(392, 0, 350)            
+         
+               putAtom_N1_N(490, 344, 70)            
+         
+               putAtom_Hf1_Hf(441, 258, 0)            
+         
+               putAtom_N1_N(441, 258, 210)            
+         
+               putAtom_Hf1_Hf(392, 172, 140)            
+         
+               putAtom_N1_N(392, 172, 350)            
+         
+               putAtom_Hf1_Hf(343, 86, 280)            
+         
+               putAtom_N1_N(343, 86, 490)            
+         
+               putAtom_Hf1_Hf(294, 0, 420)            
+         
+               putAtom_N1_N(490, 516, 70)            
+         
+               putAtom_Hf1_Hf(441, 430, 0)            
+         
+               putAtom_N1_N(441, 430, 210)            
+         
+               putAtom_Hf1_Hf(392, 344, 140)            
+         
+               putAtom_N1_N(392, 344, 350)            
+         
+               putAtom_Hf1_Hf(343, 258, 280)            
+         
+               putAtom_N1_N(343, 258, 490)            
+         
+               putAtom_Hf1_Hf(294, 172, 420)            
+         
+               putAtom_N1_N(490, 688, 70)            
+         
+               putAtom_Hf1_Hf(441, 602, 0)            
+         
+               putAtom_N1_N(441, 602, 210)            
+         
+               putAtom_Hf1_Hf(392, 516, 140)            
+         
+               putAtom_N1_N(392, 516, 350)            
+         
+               putAtom_Hf1_Hf(343, 430, 280)            
+         
+               putAtom_N1_N(343, 430, 490)            
+         
+               putAtom_Hf1_Hf(294, 344, 420)            
+         
+               putAtom_N1_N(490, 860, 70)            
+         
+               putAtom_Hf1_Hf(441, 774, 0)            
+         
+               putAtom_N1_N(441, 774, 210)            
+         
+               putAtom_Hf1_Hf(392, 688, 140)            
+         
+               putAtom_N1_N(392, 688, 350)            
+         
+               putAtom_Hf1_Hf(343, 602, 280)            
+         
+               putAtom_N1_N(343, 602, 490)            
+         
+               putAtom_Hf1_Hf(294, 516, 420)            
+         
+               putAtom_Hf1_Hf(441, 946, 0)            
+         
+               putAtom_N1_N(441, 946, 210)            
+         
+               putAtom_Hf1_Hf(392, 860, 140)            
+         
+               putAtom_N1_N(392, 860, 350)            
+         
+               putAtom_Hf1_Hf(343, 774, 280)            
+         
+               putAtom_N1_N(343, 774, 490)            
+         
+               putAtom_Hf1_Hf(294, 688, 420)            
+         
+               putAtom_Hf1_Hf(343, 946, 280)            
+         
+               putAtom_N1_N(343, 946, 490)            
+         
+               putAtom_Hf1_Hf(294, 860, 420)            
+         
+               putAtom_N1_N(637, 86, 70)            
+         
+               putAtom_Hf1_Hf(588, 0, 0)            
+         
+               putAtom_N1_N(588, 0, 210)            
+         
+               putAtom_N1_N(637, 258, 70)            
+         
+               putAtom_Hf1_Hf(588, 172, 0)            
+         
+               putAtom_N1_N(588, 172, 210)            
+         
+               putAtom_Hf1_Hf(539, 86, 140)            
+         
+               putAtom_N1_N(539, 86, 350)            
+         
+               putAtom_Hf1_Hf(490, 0, 280)            
+         
+               putAtom_N1_N(490, 0, 490)            
+         
+               putAtom_N1_N(637, 430, 70)            
+         
+               putAtom_Hf1_Hf(588, 344, 0)            
+         
+               putAtom_N1_N(588, 344, 210)            
+         
+               putAtom_Hf1_Hf(539, 258, 140)            
+         
+               putAtom_N1_N(539, 258, 350)            
+         
+               putAtom_Hf1_Hf(490, 172, 280)            
+         
+               putAtom_N1_N(490, 172, 490)            
+         
+               putAtom_Hf1_Hf(441, 86, 420)            
+         
+               putAtom_N1_N(637, 602, 70)            
+         
+               putAtom_Hf1_Hf(588, 516, 0)            
+         
+               putAtom_N1_N(588, 516, 210)            
+         
+               putAtom_Hf1_Hf(539, 430, 140)            
+         
+               putAtom_N1_N(539, 430, 350)            
+         
+               putAtom_Hf1_Hf(490, 344, 280)            
+         
+               putAtom_N1_N(490, 344, 490)            
+         
+               putAtom_Hf1_Hf(441, 258, 420)            
+         
+               putAtom_N1_N(637, 774, 70)            
+         
+               putAtom_Hf1_Hf(588, 688, 0)            
+         
+               putAtom_N1_N(588, 688, 210)            
+         
+               putAtom_Hf1_Hf(539, 602, 140)            
+         
+               putAtom_N1_N(539, 602, 350)            
+         
+               putAtom_Hf1_Hf(490, 516, 280)            
+         
+               putAtom_N1_N(490, 516, 490)            
+         
+               putAtom_Hf1_Hf(441, 430, 420)            
+         
+               putAtom_N1_N(637, 946, 70)            
+         
+               putAtom_Hf1_Hf(588, 860, 0)            
+         
+               putAtom_N1_N(588, 860, 210)            
+         
+               putAtom_Hf1_Hf(539, 774, 140)            
+         
+               putAtom_N1_N(539, 774, 350)            
+         
+               putAtom_Hf1_Hf(490, 688, 280)            
+         
+               putAtom_N1_N(490, 688, 490)            
+         
+               putAtom_Hf1_Hf(441, 602, 420)            
+         
+               putAtom_Hf1_Hf(539, 946, 140)            
+         
+               putAtom_N1_N(539, 946, 350)            
+         
+               putAtom_Hf1_Hf(490, 860, 280)            
+         
+               putAtom_N1_N(490, 860, 490)            
+         
+               putAtom_Hf1_Hf(441, 774, 420)            
+         
+               putAtom_Hf1_Hf(441, 946, 420)            
+         
+               putAtom_N1_N(784, 0, 70)            
+         
+               putAtom_N1_N(784, 172, 70)            
+         
+               putAtom_Hf1_Hf(735, 86, 0)            
+         
+               putAtom_N1_N(735, 86, 210)            
+         
+               putAtom_Hf1_Hf(686, 0, 140)            
+         
+               putAtom_N1_N(686, 0, 350)            
+         
+               putAtom_N1_N(784, 344, 70)            
+         
+               putAtom_Hf1_Hf(735, 258, 0)            
+         
+               putAtom_N1_N(735, 258, 210)            
+         
+               putAtom_Hf1_Hf(686, 172, 140)            
+         
+               putAtom_N1_N(686, 172, 350)            
+         
+               putAtom_Hf1_Hf(637, 86, 280)            
+         
+               putAtom_N1_N(637, 86, 490)            
+         
+               putAtom_Hf1_Hf(588, 0, 420)            
+         
+               putAtom_N1_N(784, 516, 70)            
+         
+               putAtom_Hf1_Hf(735, 430, 0)            
+         
+               putAtom_N1_N(735, 430, 210)            
+         
+               putAtom_Hf1_Hf(686, 344, 140)            
+         
+               putAtom_N1_N(686, 344, 350)            
+         
+               putAtom_Hf1_Hf(637, 258, 280)            
+         
+               putAtom_N1_N(637, 258, 490)            
+         
+               putAtom_Hf1_Hf(588, 172, 420)            
+         
+               putAtom_N1_N(784, 688, 70)            
+         
+               putAtom_Hf1_Hf(735, 602, 0)            
+         
+               putAtom_N1_N(735, 602, 210)            
+         
+               putAtom_Hf1_Hf(686, 516, 140)            
+         
+               putAtom_N1_N(686, 516, 350)            
+         
+               putAtom_Hf1_Hf(637, 430, 280)            
+         
+               putAtom_N1_N(637, 430, 490)            
+         
+               putAtom_Hf1_Hf(588, 344, 420)            
+         
+               putAtom_N1_N(784, 860, 70)            
+         
+               putAtom_Hf1_Hf(735, 774, 0)            
+         
+               putAtom_N1_N(735, 774, 210)            
+         
+               putAtom_Hf1_Hf(686, 688, 140)            
+         
+               putAtom_N1_N(686, 688, 350)            
+         
+               putAtom_Hf1_Hf(637, 602, 280)            
+         
+               putAtom_N1_N(637, 602, 490)            
+         
+               putAtom_Hf1_Hf(588, 516, 420)            
+         
+               putAtom_Hf1_Hf(735, 946, 0)            
+         
+               putAtom_N1_N(735, 946, 210)            
+         
+               putAtom_Hf1_Hf(686, 860, 140)            
+         
+               putAtom_N1_N(686, 860, 350)            
+         
+               putAtom_Hf1_Hf(637, 774, 280)            
+         
+               putAtom_N1_N(637, 774, 490)            
+         
+               putAtom_Hf1_Hf(588, 688, 420)            
+         
+               putAtom_Hf1_Hf(637, 946, 280)            
+         
+               putAtom_N1_N(637, 946, 490)            
+         
+               putAtom_Hf1_Hf(588, 860, 420)            
+         
+               putAtom_N1_N(931, 86, 70)            
+         
+               putAtom_Hf1_Hf(882, 0, 0)            
+         
+               putAtom_N1_N(882, 0, 210)            
+         
+               putAtom_N1_N(931, 258, 70)            
+         
+               putAtom_Hf1_Hf(882, 172, 0)            
+         
+               putAtom_N1_N(882, 172, 210)            
+         
+               putAtom_Hf1_Hf(833, 86, 140)            
+         
+               putAtom_N1_N(833, 86, 350)            
+         
+               putAtom_Hf1_Hf(784, 0, 280)            
+         
+               putAtom_N1_N(784, 0, 490)            
+         
+               putAtom_N1_N(931, 430, 70)            
+         
+               putAtom_Hf1_Hf(882, 344, 0)            
+         
+               putAtom_N1_N(882, 344, 210)            
+         
+               putAtom_Hf1_Hf(833, 258, 140)            
+         
+               putAtom_N1_N(833, 258, 350)            
+         
+               putAtom_Hf1_Hf(784, 172, 280)            
+         
+               putAtom_N1_N(784, 172, 490)            
+         
+               putAtom_Hf1_Hf(735, 86, 420)            
+         
+               putAtom_N1_N(931, 602, 70)            
+         
+               putAtom_Hf1_Hf(882, 516, 0)            
+         
+               putAtom_N1_N(882, 516, 210)            
+         
+               putAtom_Hf1_Hf(833, 430, 140)            
+         
+               putAtom_N1_N(833, 430, 350)            
+         
+               putAtom_Hf1_Hf(784, 344, 280)            
+         
+               putAtom_N1_N(784, 344, 490)            
+         
+               putAtom_Hf1_Hf(735, 258, 420)            
+         
+               putAtom_N1_N(931, 774, 70)            
+         
+               putAtom_Hf1_Hf(882, 688, 0)            
+         
+               putAtom_N1_N(882, 688, 210)            
+         
+               putAtom_Hf1_Hf(833, 602, 140)            
+         
+               putAtom_N1_N(833, 602, 350)            
+         
+               putAtom_Hf1_Hf(784, 516, 280)            
+         
+               putAtom_N1_N(784, 516, 490)            
+         
+               putAtom_Hf1_Hf(735, 430, 420)            
+         
+               putAtom_N1_N(931, 946, 70)            
+         
+               putAtom_Hf1_Hf(882, 860, 0)            
+         
+               putAtom_N1_N(882, 860, 210)            
+         
+               putAtom_Hf1_Hf(833, 774, 140)            
+         
+               putAtom_N1_N(833, 774, 350)            
+         
+               putAtom_Hf1_Hf(784, 688, 280)            
+         
+               putAtom_N1_N(784, 688, 490)            
+         
+               putAtom_Hf1_Hf(735, 602, 420)            
+         
+               putAtom_Hf1_Hf(833, 946, 140)            
+         
+               putAtom_N1_N(833, 946, 350)            
+         
+               putAtom_Hf1_Hf(784, 860, 280)            
+         
+               putAtom_N1_N(784, 860, 490)            
+         
+               putAtom_Hf1_Hf(735, 774, 420)            
+         
+               putAtom_Hf1_Hf(735, 946, 420)            
+         
+               putAtom_Hf1_Hf(980, 0, 140)            
+         
+               putAtom_N1_N(980, 0, 350)            
+         
+               putAtom_Hf1_Hf(980, 172, 140)            
+         
+               putAtom_N1_N(980, 172, 350)            
+         
+               putAtom_Hf1_Hf(931, 86, 280)            
+         
+               putAtom_N1_N(931, 86, 490)            
+         
+               putAtom_Hf1_Hf(882, 0, 420)            
+         
+               putAtom_Hf1_Hf(980, 344, 140)            
+         
+               putAtom_N1_N(980, 344, 350)            
+         
+               putAtom_Hf1_Hf(931, 258, 280)            
+         
+               putAtom_N1_N(931, 258, 490)            
+         
+               putAtom_Hf1_Hf(882, 172, 420)            
+         
+               putAtom_Hf1_Hf(980, 516, 140)            
+         
+               putAtom_N1_N(980, 516, 350)            
+         
+               putAtom_Hf1_Hf(931, 430, 280)            
+         
+               putAtom_N1_N(931, 430, 490)            
+         
+               putAtom_Hf1_Hf(882, 344, 420)            
+         
+               putAtom_Hf1_Hf(980, 688, 140)            
+         
+               putAtom_N1_N(980, 688, 350)            
+         
+               putAtom_Hf1_Hf(931, 602, 280)            
+         
+               putAtom_N1_N(931, 602, 490)            
+         
+               putAtom_Hf1_Hf(882, 516, 420)            
+         
+               putAtom_Hf1_Hf(980, 860, 140)            
+         
+               putAtom_N1_N(980, 860, 350)            
+         
+               putAtom_Hf1_Hf(931, 774, 280)            
+         
+               putAtom_N1_N(931, 774, 490)            
+         
+               putAtom_Hf1_Hf(882, 688, 420)            
+         
+               putAtom_Hf1_Hf(931, 946, 280)            
+         
+               putAtom_N1_N(931, 946, 490)            
+         
+               putAtom_Hf1_Hf(882, 860, 420)            
+         
+               putAtom_Hf_Hf(385, 513, 560)            
+         

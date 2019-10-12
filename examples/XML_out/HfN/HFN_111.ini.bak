@@ -1,0 +1,9 @@
+; INI file for Ivan's Cluster
+  
+
+ +W320 +H240
+  
+ Input_File_Name= TiSiN_scene.inc
+ 
+ Initial_Frame = 1
+ Final_Frame = 100
