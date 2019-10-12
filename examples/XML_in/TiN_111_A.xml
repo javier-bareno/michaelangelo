@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<request>
+	<meta>
+		<description name="TiN_111_Cluster"/>
+		<timestamp date="20051130" time="10:41:00"/>
+		<background color="#000000" />
+		<structure>
+			<unit>pm</unit>
+			<bounding-box x="2000" y="2312" z="419" />
+		</structure>
+		<bitmap-description>
+			<pixel-geometry width="295" height="341" />
+			<colors>			
+				<color id="blue" value="#34498F" />
+                                <color id="white" value="#FFFFFF" />
+			</colors>
+		</bitmap-description>
+	</meta>
+	
+	<bitmaps>
+		<file id="slice-00" path="D:/MichTest/gif" name="TiN111_A.gif" type="GIF" slice-height="425" />
+              <!--  <file id="slice-00" path="D:/MichTest/gif" name="TiNSiN_L3.gif" type="GIF" slice-height="425" />
+		<file id="slice-02" path="D:/MichTest/gif" name="TiNSiN_L1.gif" type="GIF" slice-height="210" />
+		<file id="slice-03" path="D:/MichTest/gif" name="TiNSiN_L2.gif" type="GIF" slice-height="210"/>
+                -->
+	</bitmaps>
+	
+	<materials>		
+		<material id="TiN111" >
+			<description id="Bulk-terminated TiN (111)" is-alloy="false" is-glass="false" alpha="0"/>
+			<origin x="50" y="50" z="-50"/>
+			<unit-cell>
+				<vector type="a" x="148" y="86" z="0"/>
+				<vector type="b" x="0" y="171" z="0"/>
+				<vector type="c" x="0" y="0" z="419"/>
+			</unit-cell>
+			<basis-atoms>
+				<atom id="Ti2">
+					<relative-coordinates x="0" y="0" z="0" />
+					<element-descriptor id="Ti2" type="Ti" radius="65" probability="1000"/>
+				</atom>
+                                <atom id="Ti2">
+					<relative-coordinates x="250" y="250" z="333" />
+					<element-descriptor id="Ti2" type="Ti" radius="65" probability="1000"/>
+				</atom>
+                                <atom id="Ti2">
+					<relative-coordinates x="750" y="750" z="666" />
+					<element-descriptor id="Ti2" type="Ti" radius="65" probability="1000"/>
+				</atom>
+				<atom id="N2">
+					<relative-coordinates x="0" y="0" z="500" />
+					<element-descriptor id="N2" type="N" radius="65" probability="1000"/>
+				</atom>
+                                <atom id="N2">
+					<relative-coordinates x="250" y="250" z="833" />
+					<element-descriptor id="N2" type="N" radius="65" probability="1000"/>
+				</atom>
+                                <atom id="N2">
+					<relative-coordinates x="750" y="750" z="166" />
+					<element-descriptor id="N2" type="N" radius="65" probability="1000"/>
+				</atom>
+			</basis-atoms>
+		</material>                   
+	</materials>
+	
+	<bindings>
+		<material color="white" material="Void" />
+                <!-- We can use material "Void" as a descriptor for nothing there, or just ignore the void color in the mapping-->
+		<material color="blue" material="TiN111" />		
+	</bindings>
+	
+</request>

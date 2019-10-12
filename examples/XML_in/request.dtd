@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated from input.xml by XMLBuddy -->
+<!ELEMENT atom (relative-coordinates,element-descriptor+)>
+<!ATTLIST atom id NMTOKEN #REQUIRED>
+<!ELEMENT background EMPTY>
+<!ATTLIST background color CDATA #REQUIRED>
+<!ELEMENT basis-atoms (atom+)>
+<!ELEMENT bindings (material+)>
+<!ELEMENT bitmap-description (pixel-geometry,colors)>
+<!ELEMENT bitmaps (file+)>
+<!ELEMENT bounding-box EMPTY>
+<!ATTLIST bounding-box
+	x NMTOKEN #REQUIRED
+	y NMTOKEN #REQUIRED
+	z NMTOKEN #REQUIRED
+>
+<!ELEMENT color EMPTY>
+<!ATTLIST color
+	id NMTOKEN #REQUIRED
+	value CDATA #REQUIRED
+>
+<!ELEMENT colors (color+)>
+<!ELEMENT description EMPTY>
+<!ATTLIST description
+	alpha NMTOKEN #IMPLIED
+	id NMTOKEN #IMPLIED
+	is-alloy NMTOKEN #IMPLIED
+	is-glass NMTOKEN #IMPLIED
+	name NMTOKEN #IMPLIED
+>
+<!ELEMENT element-descriptor EMPTY>
+<!ATTLIST element-descriptor
+	id NMTOKEN #REQUIRED
+	probability NMTOKEN #REQUIRED
+	radius NMTOKEN #REQUIRED
+	type NMTOKEN #REQUIRED
+>
+<!ELEMENT file EMPTY>
+<!ATTLIST file
+	id NMTOKEN #REQUIRED
+	name NMTOKEN #REQUIRED
+	path NMTOKEN #REQUIRED
+	slice-height NMTOKEN #REQUIRED
+	type NMTOKEN #FIXED "BMP"
+>
+<!ELEMENT material (description?,origin?,unit-cell?,basis-atoms?)>
+<!ATTLIST material
+	color NMTOKEN #IMPLIED
+	id NMTOKEN #IMPLIED
+	material NMTOKEN #IMPLIED
+>
+<!ELEMENT materials (material+)>
+<!ELEMENT meta (description,timestamp,background,structure,bitmap-description)>
+<!ELEMENT origin EMPTY>
+<!ATTLIST origin
+	x NMTOKEN #REQUIRED
+	y NMTOKEN #REQUIRED
+	z NMTOKEN #REQUIRED
+>
+<!ELEMENT pixel-geometry EMPTY>
+<!ATTLIST pixel-geometry
+	height NMTOKEN #REQUIRED
+	width NMTOKEN #REQUIRED
+>
+<!ELEMENT relative-coordinates EMPTY>
+<!ATTLIST relative-coordinates
+	x NMTOKEN #REQUIRED
+	y NMTOKEN #REQUIRED
+	z NMTOKEN #REQUIRED
+>
+<!ELEMENT request (meta,bitmaps,materials,bindings)>
+<!ELEMENT structure (unit,bounding-box)>
+<!ELEMENT timestamp EMPTY>
+<!ATTLIST timestamp
+	date NMTOKEN #REQUIRED
+	time NMTOKEN #REQUIRED
+>
+<!ELEMENT unit (#PCDATA)>
+<!ELEMENT unit-cell (vector+)>
+<!ELEMENT vector EMPTY>
+<!ATTLIST vector
+	type NMTOKEN #REQUIRED
+	x NMTOKEN #REQUIRED
+	y NMTOKEN #REQUIRED
+	z NMTOKEN #REQUIRED
+>

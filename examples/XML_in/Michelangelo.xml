@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<request>
+	<meta>
+		<description name="BigCluster"/>
+		<timestamp date="20051130" time="10:41:00"/>
+		<background color="#000000" />
+		<structure>
+			<unit>pm</unit>
+			<bounding-box x="10000" y="10000" z="100" />
+		</structure>
+		<bitmap-description>
+			<pixel-geometry width="500" height="500" />
+			<colors>
+				<color id="black" value="#000000" />				
+				<color id="blue" value="#0a0aff" />
+			</colors>
+		</bitmap-description>
+	</meta>
+	
+	<bitmaps>
+		<file id="slice-00" path="D:/MichTest/gif" name="base.gif" type="gif" slice-height="200" />
+		<file id="slice-01" path="D:/MichTest/gif" name="text.gif" type="gif" slice-height="100" />
+	</bitmaps>
+	
+	<materials>		
+		<material id="TiN001" >
+			<description id="Bulk-terminated TiN (001)" is-alloy="false" is-glass="false" alpha="0"/>
+			<origin x="0" y="0" z="0"/>
+			<unit-cell>
+				<vector type="a" x="242" y="0" z="0"/>
+				<vector type="b" x="0" y="242" z="0"/>
+				<vector type="c" x="0" y="0" z="242"/>
+			</unit-cell>
+			<basis-atoms>
+				<atom id="Ti1">
+					<relative-coordinates x="0" y="0" z="0" />
+					<element-descriptor id="Ti1"  type="Ti" radius="65" probability="1000"/>
+				</atom>
+                                <atom id="Ti1">
+					<relative-coordinates x="500" y="500" z="0" />
+					<element-descriptor id="Ti1"  type="Ti" radius="65" probability="1000"/>
+				</atom>
+                                <atom id="Ti1">
+					<relative-coordinates x="500" y="0" z="500" />
+					<element-descriptor id="Ti1"  type="Ti" radius="65" probability="1000"/>
+				</atom>
+                                <atom id="Ti1">
+					<relative-coordinates x="0" y="500" z="500" />
+					<element-descriptor id="Ti1"  type="Ti" radius="65" probability="1000"/>
+				</atom>
+                                <atom id="N1">
+					<relative-coordinates x="500" y="0" z="0" />
+					<element-descriptor id="N1"  type="N" radius="65" probability="1000"/>
+				</atom>
+                                <atom id="N1">
+					<relative-coordinates x="0" y="500" z="0" />
+					<element-descriptor id="N1"  type="N" radius="65" probability="1000"/>
+				</atom>
+                                <atom id="N1">
+					<relative-coordinates x="0" y="0" z="500" />
+					<element-descriptor id="N1"  type="N" radius="65" probability="1000"/>
+				</atom>
+				<atom id="N1">
+					<relative-coordinates x="500" y="500" z="500" />
+					<element-descriptor id="N1"  type="N" radius="65" probability="1000"/>
+				</atom>
+			</basis-atoms>
+		</material> 		
+		<material id="TiN001_2" >
+			<description id="Bulk-terminated TiN (001)" is-alloy="false" is-glass="false" alpha="0"/>
+			<origin x="0" y="0" z="0"/>
+			<unit-cell>
+				<vector type="a" x="242" y="0" z="0"/>
+				<vector type="b" x="0" y="242" z="0"/>
+				<vector type="c" x="0" y="0" z="242"/>
+			</unit-cell>
+			<basis-atoms>
+				<atom id="Ti2">
+					<relative-coordinates x="0" y="0" z="0" />
+					<element-descriptor id="Ti1"  type="Ti" radius="65" probability="1000"/>
+				</atom>
+                                <atom id="Ti2">
+					<relative-coordinates x="500" y="500" z="0" />
+					<element-descriptor id="Ti1"  type="Ti" radius="65" probability="1000"/>
+				</atom>
+                                <atom id="Ti2">
+					<relative-coordinates x="500" y="0" z="500" />
+					<element-descriptor id="Ti1"  type="Ti" radius="65" probability="1000"/>
+				</atom>
+                                <atom id="Ti2">
+					<relative-coordinates x="0" y="500" z="500" />
+					<element-descriptor id="Ti1"  type="Ti" radius="65" probability="1000"/>
+				</atom>
+                                <atom id="N2">
+					<relative-coordinates x="500" y="0" z="0" />
+					<element-descriptor id="N1"  type="N" radius="65" probability="1000"/>
+				</atom>
+                                <atom id="N2">
+					<relative-coordinates x="0" y="500" z="0" />
+					<element-descriptor id="N1"  type="N" radius="65" probability="1000"/>
+				</atom>
+                                <atom id="N2">
+					<relative-coordinates x="0" y="0" z="500" />
+					<element-descriptor id="N1"  type="N" radius="65" probability="1000"/>
+				</atom>
+				<atom id="N2">
+					<relative-coordinates x="500" y="500" z="500" />
+					<element-descriptor id="N1"  type="N" radius="65" probability="1000"/>
+				</atom>
+			</basis-atoms>
+		</material> 	
+	</materials>
+	
+	<bindings>
+		<material color="blue" material="TiN001" />                
+		<material color="black" material="TiN001_2" />		
+	</bindings>
+	
+</request>

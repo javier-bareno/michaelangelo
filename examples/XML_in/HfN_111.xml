@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<request>
+	<meta>
+		<description name="BigCluster"/>
+		<timestamp date="20051130" time="10:41:00"/>
+		<background color="#000000" />
+		<structure>
+			<unit>pm</unit>
+			<bounding-box x="1000" y="1000" z="800" />
+		</structure>
+		<bitmap-description>
+			<pixel-geometry width="200" height="200" />
+			<colors>
+				<color id="green" value="#38f805" />				
+				<color id="blue" value="#1E3B6D" />
+			</colors>
+		</bitmap-description>
+	</meta>
+	
+	<bitmaps>
+		<file id="slice-00" path="D:/MichTest/gif" name="HfN_base.gif" type="gif" slice-height="500" />
+		<file id="slice-01" path="D:/MichTest/gif" name="HfN_add.gif" type="gif" slice-height="65" />
+	</bitmaps>
+	
+	<materials>		
+		<material id="TiN111" >
+			<description id="Bulk-terminated TiN (111)" is-alloy="false" is-glass="false" alpha="0"/>
+			<origin x="0" y="0" z="0"/>
+			<unit-cell>
+				<vector type="a" x="98" y="0" z="140"/>
+				<vector type="b" x="-49" y="86" z="140"/>
+				<vector type="c" x="-49" y="-86" z="140"/>
+			</unit-cell>
+			<basis-atoms>
+				<atom id="Hf1">
+					<relative-coordinates x="0" y="0" z="0" />
+					<element-descriptor id="Hf1" type="Hf" radius="65" probability="1000"/>
+				</atom>
+				<atom id="N1">
+					<relative-coordinates x="500" y="500" z="500" />
+					<element-descriptor id="N1" type="N" radius="65" probability="1000"/>
+				</atom>
+			</basis-atoms>
+		</material>
+                <material id="Add_Hf" >
+			<description id="Hf termination layer" is-alloy="false" is-glass="false" alpha="0"/>
+			<origin x="0" y="0" z="0"/>
+			<unit-cell>
+				<vector type="a" x="1000" y="0" z="0"/>
+				<vector type="b" x="0" y="1000" z="0"/>
+				<vector type="c" x="0" y="0" z="70"/>
+			</unit-cell>
+			<basis-atoms>
+				<atom id="Hf">
+					<relative-coordinates x="385" y="513" z="0" />
+					<element-descriptor id="Hf2" type="Hf" radius="65" probability="1000"/>
+				</atom>				
+			</basis-atoms>
+		</material>
+	</materials>
+	
+	<bindings>
+		<material color="blue" material="TiN111" />                
+		<material color="green" material="Add_Hf" />		
+	</bindings>
+	
+</request>
