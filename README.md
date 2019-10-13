@@ -1,5 +1,7 @@
 # michaelangelo
-A Java package to create complex polycrystalline structures. The program produces a list of atomic positions, consistent with the crystal strcutures of each grain in the structure. THese positions can then be used to render a 3D view of the structure (e.g., with [POV-Ray](http://www.povray.org)), or perform atomic calculations. You can find examples of structures generated with it in figure 5 of https://doi.org/10.1103/PhysRevB.75.155437
+A Java package to create complex polycrystalline structures. The program produces a list of atomic positions, consistent with the crystal strcutures of each grain in the structure. These positions can then be used to render a 3D view of the structure (e.g., with [POV-Ray](http://www.povray.org)), or perform atomic calculations. You can find an example of structures generated with it in figure 5 of https://doi.org/10.1103/PhysRevB.75.155437
+
+
 
 # Usage
 src/michaelangelo_eng/Michaelangelo.java defines the Michaelangelo class, which processes the input. The construction takes either an XML object (org.jdom.Element) or the path/name to an XML file. 
