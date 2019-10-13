@@ -19,4 +19,4 @@ Michaelangelo.main() and the main() method of src/michaelangelo_eng/Main.java pr
 
 * **AtomList.toXMLfile(fnameout)** and XML file listing the type (element symbol) and position of each atom
 * **AtomList.toXYZ(fnameout)** an xyz file listing the type and position of each atom
-* **AtomList.toPOVRay(fnameout)** a file to #include in a POV-Ray scene, containing a list of PutAtom_xx_yy(x, y, z) macro calls, derived from calculated the atom types and positions. Defining these macros in the POV-Ray scene allows the user to control how the amos will be rendered in the final POV-Ray image.
+* **AtomList.toPOVRay(fnameout)** a file to #include in a POV-Ray scene, containing a list of PutAtom_xx_yy(x, y, z) macro calls, derived from calculated atom types and positions. Defining these macros in the POV-Ray scene allows the user to control how the amos will be rendered in the final POV-Ray image.
