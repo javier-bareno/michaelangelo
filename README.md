@@ -1,5 +1,7 @@
 # michaelangelo
-A Java package to create complex polycrystalline structures. The program produces a list of atomic positions, consistent with the crystal strcutures of each grain in the structure. These positions can then be used to render a 3D view of the structure (e.g., with [POV-Ray](http://www.povray.org)), or perform atomic calculations. 
+A Java package to create complex polycrystalline structures. 
+
+Michaelangelo takes a series of bitmaps, and associates each color in the bitmaps to a crystal structure. Interprets each bitmap as a slice of a polycristalline volume. And produces a list of atomic positions consistent with the crystal strcutures of each grain. These positions can then be used to render a 3D view of the structure (e.g., with [POV-Ray](http://www.povray.org)), or perform atomic calculations. 
 
 ![Workflow schematic](Picture1.gif)
 
@@ -19,8 +21,24 @@ Michaelangelo.main() and the main() method of src/michaelangelo_eng/Main.java pr
 
 ## Input
 
+The fromat of the XML input files is defined in examples/XML_in/request.dtd. See, for example, examples/XML_in/TiSiN_3L.xml The main elements of the XML request structure are:
+
+### meta
+Includes a series of elements to describe the final structure and the input bitmaps; including:
+* meta.strcuture.unit The unit of measure; e.g., pm, fm.
+* meta.structure.bounding-box The size of the volume to be filled with atoms.
+
+### bitmap
+  
+### materials
+  
+### bindings
+
 ## Output
 
 * **AtomList.toXMLfile(fnameout)** and XML file listing the type (element symbol) and position of each atom
 * **AtomList.toXYZ(fnameout)** an xyz file listing the type and position of each atom
 * **AtomList.toPOVRay(fnameout)** a file to #include in a POV-Ray scene, containing a list of PutAtom_xx_yy(x, y, z) macro calls, derived from calculated atom types and positions. Defining these macros in the POV-Ray scene allows the user to control how the amos will be rendered in the final POV-Ray image.
+
+## Examples
+You can find examples of input XML files and corresponding outputs in examples/XML_in and examples/XML_out, respectively. 
